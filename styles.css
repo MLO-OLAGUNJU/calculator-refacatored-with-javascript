@@ -36,3 +36,10 @@ body {
 .span-two {
   grid-column: span 2;
 }
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-end;
+}
